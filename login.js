@@ -8,7 +8,7 @@ logIn.addEventListener("click", ()=>{
 
     if(number === "01864077157" && pin === "Khan"){
         alert("Login success")
-        window.location.replace("home.html")
+        window.location.assign("home.html")
     }
     else{
         alert("Login failed")
